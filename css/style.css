@@ -185,7 +185,7 @@ main
 
     /*---------------Ajustes de tamaño-------------------------*/
 
-    @media (max-width: 530px)
+    @media (max-width: 565px)
     {
        
     }
@@ -216,7 +216,7 @@ main
 
 .imagen_presentacion 
 {
-    width: 40%;
+    width: 60%;
     margin: 10px;
 }
 
@@ -236,7 +236,7 @@ main
 
     /*---------------Ajustes de tamaño-------------------------*/
 
-    @media (max-width: 530px)
+    @media (max-width: 565px)
     {
 
 
@@ -248,11 +248,12 @@ main
         .texto-presentacion
         {
             align-items: center;
+            width: 300px;
         }
 
         .imagen_presentacion 
         {
-            width: 400px;
+            width: 300px;
         }
     }
     
@@ -300,7 +301,13 @@ main
 
     /*---------------Ajustes de tamaño-----------------*/
 
-
+    @media (max-width: 565px)
+    {
+        .container
+        {
+            width: 300px;
+        }
+    }
 
 
 
