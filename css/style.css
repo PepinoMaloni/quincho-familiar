@@ -104,7 +104,7 @@ menu a:hover,
 
     /*---------------Ajustes de tamaño-------------------------*/
 
-    @media (max-width: 478px)
+    @media (max-width: 530px)
     {
         .mostrar-menu,
         .esconder-menu
@@ -145,9 +145,6 @@ menu a:hover,
         }
     
     }
-
-
-
     /*-------------------------------------------*/
 
 /*-------------------------------------------*/
@@ -188,12 +185,11 @@ main
 
     /*---------------Ajustes de tamaño-------------------------*/
 
-    @media (max-width: 533px) {
-        .cartita
-        {
-            width: 10px;
-        }
+    @media (max-width: 530px)
+    {
+       
     }
+    
 
 
 
@@ -206,12 +202,16 @@ main
 {
     margin-bottom: 10px;
     font-family: 'Euphoria Script', cursive;
+    display: flex;
+    justify-content: center;
 }
 
 .introduccion 
 {
     display: flex;
+    justify-content: center;
     border: 5px solid #5fa8d3;
+    flex-wrap: wrap;
 }
 
 .imagen_presentacion 
@@ -223,12 +223,39 @@ main
 .Presentacion 
 {
     margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.texto-presentacion
+{
+    width: 400px;
+    
 }
 
 
     /*---------------Ajustes de tamaño-------------------------*/
 
+    @media (max-width: 530px)
+    {
 
+
+        .Titulo
+        {
+            margin-bottom: auto;
+
+        }
+        .texto-presentacion
+        {
+            align-items: center;
+        }
+
+        .imagen_presentacion 
+        {
+            width: 400px;
+        }
+    }
+    
 
 
 
