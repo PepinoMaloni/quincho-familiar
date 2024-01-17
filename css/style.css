@@ -185,13 +185,6 @@ main
 
     /*---------------Ajustes de tamaño-------------------------*/
 
-    @media (max-width: 565px)
-    {
-       
-    }
-    
-
-
 
     /*-------------------------------------------*/
 
@@ -239,7 +232,6 @@ main
     @media (max-width: 565px)
     {
 
-
         .Titulo
         {
             margin-bottom: auto;
@@ -248,18 +240,20 @@ main
         .texto-presentacion
         {
             align-items: center;
-            width: 300px;
+            width: 250px;
         }
 
         .imagen_presentacion 
         {
+            width: 200px;
+        }
+
+        .introduccion
+        {
             width: 300px;
         }
+
     }
-    
-
-
-
     /*-------------------------------------------*/
 
 /*-------------------------------------------*/
@@ -303,9 +297,15 @@ main
 
     @media (max-width: 565px)
     {
+
+        .cartita
+        {
+            width: 350px;
+        }
+
         .container
         {
-            width: 300px;
+            width: 200px;
         }
     }
 
