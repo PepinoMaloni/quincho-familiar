@@ -211,6 +211,9 @@ main
 {
     width: 60%;
     margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .Presentacion 
@@ -279,23 +282,10 @@ main
 .container
 {
     background-color: #5fa8d3;
+    display: flex;
     justify-content: center;
 }
 
-.imagen_Galeria
-{
-    width: 100%; 
-    height: 100%;
-    object-position: center bottom;
-    object-fit: cover;
-}
-
-.carousel-item
-{
-  width: 100%;
-  height: 500px;
-  object-fit: fill;
-}
 
 
     /*---------------Ajustes de tamaño-----------------*/
@@ -312,6 +302,12 @@ main
         {
             width: 200px;
         }
+
+        .carousel-item
+        {
+            width: 90px
+        }
+
     }
 
 
