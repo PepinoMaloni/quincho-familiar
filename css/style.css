@@ -298,16 +298,10 @@ main
            width: 500px;
         }
 
-        .container
+        .imagen-carrusel
         {
-            width: 200px;
-        }
 
-        .carousel-item
-        {
-            width: 90px
         }
-
     }
 
 
@@ -374,6 +368,8 @@ main
     width: 500px;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
+
 }
 
     /*---------------Ajustes de tamaño (390x844)-------------------------*/
