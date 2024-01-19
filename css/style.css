@@ -104,7 +104,7 @@ menu a:hover,
 
     /*---------------Ajustes de tamaño-------------------------*/
 
-    @media (max-width: 530px)
+    @media (max-width: 565px)
     {
         .mostrar-menu,
         .esconder-menu
@@ -243,7 +243,7 @@ main
         .texto-presentacion
         {
             align-items: center;
-            width: 250px;
+            width: 200px;
         }
 
         .imagen_presentacion 
@@ -295,10 +295,9 @@ main
 
         .cartita
         {
-           width: 500px;
+           width: 400px;
         }
 
-    
     }
 
 
@@ -316,18 +315,26 @@ main
 
 .Formulario
 {
-    margin-left: 40%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
 }
 
 .logoContactos 
 {
-    width: 500px; 
+    max-width: 500px; 
     margin-right: 10px; 
     padding: 20%;
 }
 
     /*---------------Ajustes de tamaño-------------------------*/
+    @media (max-width: 565px)
+    {
 
+       
+
+    }
 
 
 
