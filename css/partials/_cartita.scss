@@ -1,0 +1,146 @@
+
+.cartita 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #95cfe1;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+
+        .titulo_galeria
+        {
+            font-family: 'Euphoria Script', cursive;
+        }
+        
+        .galeria 
+        {
+    
+            padding: 10px; 
+            margin-top: 20px; 
+            display: flex;
+            justify-content: space-between;
+            width: 100%; 
+            box-sizing:border-box
+        }
+
+        .container
+        {
+            background-color: #5fa8d3;
+            display: flex;
+            justify-content: center;
+        }
+
+        .introduccion 
+        {
+            display: flex;
+            justify-content: center;
+            border: 5px solid #5fa8d3;
+            flex-wrap: wrap;
+      
+            .Titulo 
+            {
+                margin-bottom: 10px;
+                font-family: 'Euphoria Script', cursive;
+                display: flex;
+                justify-content: center;
+            }
+      
+            .imagen_presentacion 
+            {
+                width: 60%;
+                margin: 10px;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+      
+            .texto-presentacion 
+            {
+                width: 400px;
+            }
+        }
+
+
+    .Formulario
+    {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .logoContactos 
+    {
+        max-width: 400px; 
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .pautaPrecio
+    {
+        list-style-type: none;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    .carousel-item
+    {
+        max-width: 1000px;
+
+        .imagen-metodoPago
+        {
+            width: 800px; 
+            margin-right: 10px; 
+        }
+    }
+
+    .img_servicios
+    {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .card
+    {
+        background-color: #175676;
+
+        .logo_tarjeta
+        {
+            display: flex;
+            width: 70%;
+            margin: auto;
+        }
+        .texto_Tarjeta
+        {
+            display: flex;
+            margin: auto;
+            color: white;
+        }
+    }
+
+    .Ubicacion
+    {
+        width: 40%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .TextoUbicacion
+    {
+        display: flex;
+        margin-right: 44px;
+    }
+
+    .contenido-ubicacion
+    {
+        margin-left: 10px; 
+    }
+
+
+    
+}
+  
+    

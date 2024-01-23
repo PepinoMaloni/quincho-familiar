@@ -418,16 +418,9 @@ main
   color: white;
 }
 
-.metodoPago
-{
-    width: 300px;
-    display: flex;
-    padding: 10px;
-    margin-top: 20px;
-    margin-right: 30px;
-}
 
-.metodoPago img 
+
+.imagen-metodoPago
 {
     width: 800px; 
     margin-right: 10px; 
@@ -454,8 +447,7 @@ main
 
 .parrafoFinalServicios
 {
-    margin-bottom: 5px;
-    
+    margin-bottom: 5px; 
 }
 
 .img_servicios
@@ -485,27 +477,19 @@ main
 
 .texto_Tarjeta
 {
+    display: flex;
     margin: auto;
+    color: white;
 }
 
-.tarjetas
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
-}
+
+
 
 .card
 {
     background-color: #175676;
 }
 
-
-.ocultar 
-{
-    display: none;
-}
- 
 /*-------------------------------------------*/
 
 

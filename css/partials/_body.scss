@@ -3,3 +3,14 @@ body
     display: flex;
     flex-direction: column;
 }
+
+.imagen_fondo 
+    {
+      background: url(../images/exterior\ 3.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
