@@ -11,96 +11,9 @@
     box-sizing: border-box;
 }
 
-body 
-{
-    display: flex;
-    flex-direction: column;
 
-}
+      
 
-/*-----------------Footer---------------------*/
-footer
-{
-    display: block;
-    background-color: #175676;
-}
-
-.pie_pag
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: gold;
-}
-
-
-    /*---------------Ajustes de tamaño-------------------------*/
-    
-    
-
-    
-
-
-
-    /*-------------------------------------------*/
-
-/*-------------------------------------------*/
-
-
-/*-----------------HEADER---------------------*/
-header
-{
-    height: 100px;
-    background: #5fa8d3;
-    padding: 0 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo-principal
-{
-    float: left;
-    width: 100px;
-}
-
-.menu a
-{
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 0 10px;
-    transition: 0.4s;
-    -webkit-transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
-}
-
-.mostrar-menu,.esconder-menu
-{
-    font-size: 30px;
-    cursor: pointer;
-    display: none;
-    transition: 0.4s;
-}
-
-.mostrar-menu
-{
-    order:1;
-}
-
-menu a:hover,
-.mostrar-menu:hover,
-.esconder-menu:hover
-{
-   color: black;
-}
-
-#check
-{
-    display: none;
-}
 
     /*---------------Ajustes de tamaño-------------------------*/
 
@@ -124,24 +37,26 @@ menu a:hover,
             padding: 100px 0px;
             z-index: 100;
             transition: 0.8s;      
-        }
+        
     
-        .menu a
-        {
-        display: block;
-        padding: 20px;
-        }
+            .menu a
+            {
+            display: block;
+            padding: 20px;
+            }
     
-        .esconder-menu
-        {
-        position: absolute;
-        top: 40px;
-        right: 40px; 
-        }
+            .esconder-menu
+            {
+            position: absolute;
+            top: 40px;
+            right: 40px; 
+            }
     
-        #check:checked ~ .menu
-        {
-        right: 0;
+            #check:checked ~ .menu
+            {
+            right: 0;
+            }
+
         }
     
     }
@@ -151,38 +66,34 @@ menu a:hover,
 
 /*-----------------Main---------------------*/
 
-main
+main 
 {
     min-height: 100vh;
     flex-wrap: wrap;
+  
+    .cartita 
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #95cfe1;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+  
+    .imagen_fondo 
+    {
+      background: url(../images/exterior\ 3.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 }
-
-.cartita 
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #95cfe1;
-    padding: 20px;
-    max-width: 800px; 
-    margin: auto; 
-
-}
-
-.imagen_fondo
-{
-    background: url(../images/exterior\ 3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
- 
-
     /*---------------Ajustes de tamaño-------------------------*/
 
     @media (max-width: 800px)
@@ -415,7 +326,7 @@ main
 
   list-style-type: none;
   margin-bottom: 10px;
-  color: white;
+  color: red;
 }
 
 .metodoPago
@@ -552,4 +463,5 @@ main
 
 
 /*-------------------------------------------*/
+
 

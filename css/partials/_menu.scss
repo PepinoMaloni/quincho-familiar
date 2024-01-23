@@ -1,0 +1,36 @@
+.menu a 
+{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+      
+    &:hover 
+    {
+        color: black;
+    }
+}
+      
+    .mostrar-menu, .esconder-menu
+    {
+        font-size: 30px;
+        cursor: pointer;
+        display: none;
+        transition: 0.4s;
+      
+        &:hover 
+        {
+            color: black;
+        }
+        }
+      
+    .mostrar-menu 
+    {
+        order: 1;
+    }
+      
+    #check 
+    {
+        display: none;
+    }
