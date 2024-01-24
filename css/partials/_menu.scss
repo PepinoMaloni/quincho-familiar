@@ -1,84 +1,81 @@
-.menu
+.menu 
 {
-    @media (max-width: 683px)
+    @media (max-width: 683px) 
     {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #5fa8d3;
-    right: 100%;
-    top: 0;
-    text-align: center;
-    padding: 100px 0px;
-    z-index: 100;
-    transition: 0.8s; 
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #5fa8d3;
+      right: 100%;
+      top: 0;
+      text-align: center;
+      padding: 100px 0px;
+      z-index: 100;
+      transition: 0.8s;
     }
-    
+  
     a 
     {
-        color: $colorOpcionesHeader;
-        text-transform: uppercase;
-        text-decoration: none;
-        padding: 0 10px;
-        transition: 0.4s;
-      
-        &:hover 
-        {
-            color: $colorHamburgesa;
-        }
-
-        @media (max-width: 683px)
-        {
-            display: block;
-            padding: 20px;
-        } 
+      color: $colorOpcionesHeader;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 0 10px;
+      transition: 0.4s;
+  
+      &:hover 
+      {
+        color: $colorHamburgesa;
+      }
+  
+      @media (max-width: 683px) 
+      {
+        display: block;
+        padding: 20px;
+      }
     }
-
-    .esconder-menu
+  
+    .esconder-menu 
     {
-        @media (max-width: 683px)
-        {
+      @media (max-width: 683px) 
+      {
         position: absolute;
         top: 40px;
-        right: 40px; 
-        }
+        right: 40px;
+      }
     }
-      
-    .mostrar-menu, .esconder-menu
+  
+    .mostrar-menu, .esconder-menu 
     {
-        @media (max-width: 683px)
-        {
-            display: block;
-        }
-
-        font-size: 30px;
-        cursor: pointer;
-        display: none;
-        transition: 0.4s;
-      
-        &:hover 
-        {
-                color: $colorHamburgesa;
-        }
+      @media (max-width: 683px) 
+      {
+        display: block;
+      }
+  
+      font-size: 30px;
+      cursor: pointer;
+      display: none;
+      transition: 0.4s;
+  
+      &:hover 
+      {
+        color: $colorHamburgesa;
+      }
     }
-      
+  
     .mostrar-menu 
     {
-        order: 1;
+      order: 1;
     }
-      
+  
     #check 
     {
-        display: none;
+      display: none;
     }
-
-    #check:checked ~ .menu
+  
+    #check:checked ~ & 
     {
-        @media (max-width: 683px)
-        {
+      @media (max-width: 683px) {
         right: 0;
-        }
+      }
     }
-
-
-}
+  }
