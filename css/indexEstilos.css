@@ -43,14 +43,17 @@ header .menu a {
   -o-transition: 0.4s;
 }
 header .menu a:hover {
-  background-color: #175676;
-  transform: scale(1.7);
+  transform: translateY(-5px);
   text-decoration: underline;
-  -webkit-transform: scale(1.7);
-  -moz-transform: scale(1.7);
-  -ms-transform: scale(1.7);
-  -o-transform: scale(1.7);
   color: gold;
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
+}
+header .menu .pagina-actual {
+  color: gold;
+  text-decoration: underline;
 }
 header .mostrar-menu, header .esconder-menu {
   font-size: 30px;

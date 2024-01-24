@@ -8,12 +8,14 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    .logo-principal {
+    .logo-principal 
+    {
         float: left;
         width: 100px;
     }
 
-    .menu a {
+    .menu a 
+    {
         color: white;
         text-transform: uppercase;
         text-decoration: none;
@@ -26,15 +28,20 @@ header {
 
         &:hover
         {
-            background-color: #175676;
-            transform: scale(1.7);
+            transform: translateY(-5px);
             text-decoration: underline;
-            -webkit-transform: scale(1.7);
-            -moz-transform: scale(1.7);
-            -ms-transform: scale(1.7);
-            -o-transform: scale(1.7);
             color: gold;
+            -webkit-transform: translateY(-5px);
+            -moz-transform: translateY(-5px);
+            -ms-transform: translateY(-5px);
+            -o-transform: translateY(-5px);
         }
+    }
+
+    .menu .pagina-actual 
+    {
+        color: gold;
+        text-decoration: underline; 
     }
 
     .mostrar-menu, .esconder-menu {
