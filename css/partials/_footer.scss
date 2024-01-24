@@ -1,13 +1,11 @@
-footer
-{
+footer {
     display: block;
-    background-color: $colorFuenteFooter;
+    background-color: #175676;
 
-    .pie_pag
-    {
+    .pie_pag {
         display: flex;
         align-items: center;
         justify-content: center;
-        color: $colorFuenteFooter;
+        color: gold;
     }
 }
