@@ -5,10 +5,37 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #95cfe1;
+    background-color: $colorSecundario;
     padding: 20px;
     max-width: 800px;
     margin: auto;
+
+    @media (max-width: 800px)
+    {
+        width: 700px;
+    }
+
+    @media (max-width: 700px)
+    {
+        width: 600px;
+    }
+
+    @media (max-width: 600px)
+    {
+        width: 500px;
+    }
+
+    @media (max-width: 500px)
+    {
+
+        width: 400px;
+    }
+
+    @media (max-width: 400px)
+    {
+        width: 300px;
+    }
+
 
         .titulo_galeria
         {
@@ -26,9 +53,19 @@
             box-sizing:border-box
         }
 
+        .imagen-carrusel
+        {
+            max-width: 1000px;
+
+            @media (max-width: 565px)
+            {
+                max-width: 500px;
+            }
+        }
+
         .container
         {
-            background-color: #5fa8d3;
+            background-color: $colorPrincipal;
             display: flex;
             justify-content: center;
         }
@@ -37,8 +74,18 @@
         {
             display: flex;
             justify-content: center;
-            border: 5px solid #5fa8d3;
+            border: 5px solid $colorPrincipal;
             flex-wrap: wrap;
+            @media (max-width: 565px)
+            {
+                width: 300px;
+            }
+
+            @media (max-width: 400px)
+            {
+                width: 250px;
+            }
+
       
             .Titulo 
             {
@@ -46,6 +93,11 @@
                 font-family: 'Euphoria Script', cursive;
                 display: flex;
                 justify-content: center;
+                @media (max-width: 565px)
+                {
+                    margin-bottom: auto;
+                    font-size: medium;
+                }
             }
       
             .imagen_presentacion 
@@ -55,92 +107,151 @@
                 display: flex;
                 justify-content: center;
                 flex-wrap: wrap;
+                @media (max-width: 565px)
+                {
+                    width: 200px;
+                }
+                @media (max-width: 400px)
+                {
+                    width: 200px;
+                }
+
             }
       
             .texto-presentacion 
             {
                 width: 400px;
+                @media (max-width: 565px)
+                {
+                    align-items: center;
+                    width: 200px;
+                    font-size: small;
+                }
+                @media (max-width: 400px)
+                {
+                    width: 150px;
+                    font-size: small;
+                }
             }
         }
 
 
-    .Formulario
-    {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
+        .Formulario
+        {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
 
-    .logoContactos 
-    {
-        max-width: 400px; 
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
+        .logoContactos 
+        {
+            max-width: 400px; 
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            @media (max-width: 565px)
+            {
+                max-width: 500px;
+            }
 
-    .pautaPrecio
-    {
-        list-style-type: none;
-        margin-bottom: 10px;
-        color: white;
-    }
+        }
 
-    .carousel-item
-    {
-        max-width: 1000px;
+        .pautaPrecio
+        {
+            list-style-type: none;
+            margin-bottom: 10px;
+            color: $colorOpcionesHeader;
+            @media (max-width: 565px)
+            {
+                font-size: small;
+            }
+        }
 
         .imagen-metodoPago
         {
-            width: 800px; 
+            max-width: 800px; 
             margin-right: 10px; 
+            @media (max-width: 565px)
+            {
+                max-width: 500px;
+            }
         }
-    }
 
-    .img_servicios
-    {
-        width: 100%;
-        margin-bottom: 12px;
-    }
+        .img_servicios
+        {
+            width: 100%;
+            margin-bottom: 12px;
+        }
 
-    .card
-    {
-        background-color: #175676;
+        .card
+        {
+            background-color: $colorFooterYTarjetas;
 
-        .logo_tarjeta
+            .logo_tarjeta
+            {
+                display: flex;
+                width: 70%;
+                margin: auto;
+            }
+            .texto_Tarjeta
+            {
+                display: flex;
+                margin: auto;
+                color: $colorOpcionesHeader;
+            }
+        }
+
+        .parrafoFinalServicios
+        {
+            margin-bottom: 5px; 
+        }
+
+        .Ubicacion
+        {
+            width: 40%;
+            flex-wrap: wrap;
+            justify-content: center;
+            @media (max-width: 565px)
+            {
+                width: 300px;
+            }
+
+            @media (max-width: 400px)
+            {
+                max-width: 200px;
+            }
+
+
+        }
+
+        .TextoUbicacion
         {
             display: flex;
-            width: 70%;
-            margin: auto;
+            margin-right: 44px;
+            @media (max-width: 279px)
+            {
+                font-size: small;
+            }
+            @media (max-width: 279px)
+            {
+                font-size: small;
+            }
+
         }
-        .texto_Tarjeta
+
+        .referencias
         {
-            display: flex;
-            margin: auto;
-            color: white;
+            @media (max-width: 279px)
+            {
+                font-size: small;
+            }
         }
-    }
 
-    .Ubicacion
-    {
-        width: 40%;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+        .contenido-ubicacion
+        {
+            margin-left: 10px; 
+        }
 
-    .TextoUbicacion
-    {
-        display: flex;
-        margin-right: 44px;
-    }
-
-    .contenido-ubicacion
-    {
-        margin-left: 10px; 
-    }
-
-
-    
 }
   
     

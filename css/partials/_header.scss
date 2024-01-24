@@ -1,7 +1,7 @@
 header 
 {
     height: 100px;
-    background: #5fa8d3;
+    background: $colorPrincipal;
     padding: 0 30px;
     display: flex;
     justify-content: space-between;
@@ -12,5 +12,6 @@ header
         float: left;
         width: 100px;
     }
+
 }
       

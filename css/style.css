@@ -304,10 +304,6 @@ main
 
     @media (max-width: 400px)
     {
-        .texto-presentacion
-        {
-            width: 100px;
-        }
 
         .imagen_presentacion
         {
@@ -356,10 +352,22 @@ main
     justify-content: center;
 }
 
+.imagen-carrusel
+{
+    max-width: 1000px;
+}
+
 
 
     /*---------------Ajustes de tamaño-----------------*/
 
+    @media (max-width: 565px)
+    {
+        .imagen-carrusel 
+        {
+            max-width: 500px;
+        }
+    }
 
    
     
@@ -388,7 +396,7 @@ main
 .logoContactos 
 {
     
-    max-width: 400px; 
+    max-width: 800px; 
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -397,9 +405,10 @@ main
     /*---------------Ajustes de tamaño-------------------------*/
     @media (max-width: 565px)
     {
-
-       
-
+        .logoContactos
+        {
+        max-width: 500px;
+        }
     }
 
 
@@ -418,21 +427,21 @@ main
   color: white;
 }
 
-
-
 .imagen-metodoPago
 {
-    width: 800px; 
+    max-width: 800px; 
     margin-right: 10px; 
 }
 
-.carousel-item
-{
-   max-width: 1000px;
-}
 
     /*---------------Ajustes de tamaño ()-------------------------*/
-
+    @media (max-width: 565px)
+    {
+        .pautaPrecio
+        {
+            font-size: medium;
+        }
+    }
 
 
 
@@ -522,13 +531,36 @@ main
         {
             width: 300px;
         }
-        .referencias
-        {
-            margin-left: 90px;
-        }
-       
 
     }
+
+    @media (max-width: 400px)
+    {
+        .Ubicacion
+        {
+            max-width: 200px;
+        }
+    }
+
+    @media (max-width: 279px)
+        {
+            .referencias
+            {
+                font-size: small;
+            }
+
+            .TextoUbicacion
+            {
+                font-size: small;
+            }
+
+
+            
+        }
+        
+       
+
+
 
 
 
