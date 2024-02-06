@@ -44,7 +44,6 @@
         
         .galeria 
         {
-    
             padding: 10px; 
             margin-top: 20px; 
             display: flex;
@@ -80,13 +79,10 @@
             {
                 width: 300px;
             }
-
             @media (max-width: 400px)
             {
                 width: 250px;
             }
-
-      
             .Titulo 
             {
                 margin-bottom: 10px;
@@ -99,7 +95,6 @@
                     font-size: medium;
                 }
             }
-      
             .imagen_presentacion 
             {
                 width: 60%;
@@ -115,9 +110,7 @@
                 {
                     width: 200px;
                 }
-
             }
-      
             .texto-presentacion 
             {
                 width: 400px;
@@ -167,16 +160,24 @@
             }
         }
 
-        .imagen-metodoPago
+        .imagenes-med-pago 
         {
-            max-width: 800px; 
-            margin-right: 10px; 
-            @media (max-width: 565px)
-            {
-                max-width: 500px;
-            }
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
+        
+        .logo 
+        {
+            width: 200px; /* Ajusta el tamaño máximo según tus necesidades */
+            height: auto;
+            margin-bottom: 10px; /* Puedes ajustar el margen según tus necesidades */
+            @media (max-width: 500px)
+            {
+                max-width: 100px;
+            }
 
+        }
         .img_servicios
         {
             width: 100%;
@@ -205,25 +206,6 @@
         {
             margin-bottom: 5px; 
         }
-
-        .Ubicacion
-        {
-            width: 40%;
-            flex-wrap: wrap;
-            justify-content: center;
-            @media (max-width: 565px)
-            {
-                width: 300px;
-            }
-
-            @media (max-width: 400px)
-            {
-                max-width: 200px;
-            }
-
-
-        }
-
         .TextoUbicacion
         {
             display: flex;
@@ -251,7 +233,4 @@
         {
             margin-left: 10px; 
         }
-
 }
-  
-    

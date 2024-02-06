@@ -1,11 +1,12 @@
-footer {
+footer 
+{
     display: block;
-    background-color: #175676;
-
+    height: 50px;
+    background-color: $colorFooterYTarjetas;
     .pie_pag {
         display: flex;
         align-items: center;
         justify-content: center;
-        color: gold;
+        color: $colorFuenteOro;
     }
 }
